@@ -1,4 +1,4 @@
-# Project Title
+# Optima - FullStack - Task 1
 
 Taks Assigned - Create reactive form angular (validation), Store on localstorge, Show the list.
 
