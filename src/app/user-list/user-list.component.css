@@ -1,0 +1,33 @@
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+.table {
+    width: 55vw;
+}
+
+.create-user {
+    color: black;
+    text-align: center;
+}
+
+.table-header {
+    height: 6vh;
+    width: 400px;
+    background-color: #1c42edf2;
+    color: white;
+    font-size: 16px;
+}
+
+.record {
+    background-color: #ccc;
+    color: black;
+    height: 6vh;
+    text-align: center;
+    font-size: 15px;
+}

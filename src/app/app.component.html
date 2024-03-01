@@ -1,1 +1,10 @@
-<app-prompt></app-prompt>
+<!-- The common part of all views are kept here to avoid redundancy -->
+
+<div class="logo">
+    <h1>User App</h1>
+  </div>
+  <div class="header">
+    <a routerLink="/">Home</a>
+    <a routerLink="/users">User List</a>
+  </div>
+<router-outlet></router-outlet>

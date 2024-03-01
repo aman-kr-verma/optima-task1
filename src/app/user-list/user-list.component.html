@@ -1,0 +1,19 @@
+<h2 class="create-user">User Details</h2>
+<div class="container">
+  <div *ngIf="formData" class="container-table">
+    <table class="table">
+      <thead class="table-header">
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody class="table-body">
+        <tr class="record" *ngFor="let formData of formSubmissions.reverse()">
+          <td>{{formData.name}}</td>
+          <td>{{formData.email}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

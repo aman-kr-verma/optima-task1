@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="container-form">
+    <h2 class="create-user">Create a user</h2>
+    <form [formGroup]="form" (ngSubmit)="onSubmit()">
+      <input type="text" class="textbox" formControlName="name" placeholder="enter name"><br>
+      <input type="email" formControlName="email" class="textbox" placeholder="enter email">
+      <button type="submit" [disabled]="form.invalid" class="submit">Add User</button>
+      <br>
+      <div class="alerts" *ngIf="form.controls['name']?.invalid && form.controls['name']?.touched">
+        <p class="alert" *ngIf="form.controls['name']?.errors?.['required']">Name is required</p>
+      </div>
+      <div class="alerts" *ngIf="form.controls['email']?.invalid && form.controls['email']?.touched">
+        <p class="alert" *ngIf="form.controls['email']?.errors?.['required']">Email is required</p>
+        <p class="alert" *ngIf="form.controls['email']?.errors?.['email']">Invalid email format</p>
+      </div>
+    </form>
+  </div>
+</div>
