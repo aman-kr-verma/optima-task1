@@ -1,27 +1,24 @@
-# ChatbotUI
+# Project Title
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.4.
+Taks Assigned - Create reactive form angular (validation), Store on localstorge, Show the list.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Introduction
 
-## Code scaffolding
+This project demonstrates the usage of localstorage in angular, and the form validation methodology. 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Features
 
-## Build
+List the key features or functionalities of the project.
+ - Reactive form to create and add a user to storage
+ - List to display all the users
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Technologies Used
 
-## Running unit tests
+- Angular
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Usage
 
-## Running end-to-end tests
+This project is useful to create a database of users, after validating the entered data.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
