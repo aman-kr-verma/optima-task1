@@ -1,17 +1,5 @@
 
 
-a {
-    display: inline-block;
-    margin-right: 20px;
-    text-decoration: none;
-    color: rgb(230, 231, 226);
-    font-weight: bold;
-    font-size: 19px;
-}
-
-a:hover {
-    color: red;
-}
 
 .container {
     display: flex;
@@ -23,23 +11,33 @@ a:hover {
 .container-form {
     height: 55vh;
     width: 40vw;
-    background-color: #f2f4f7;
+    background-color: transparent;
     border: 1px solid black;
-    border-radius: 2%;
     border-style: outset;
+    border-color:transparent;
 }
 
 .create-user {
     height: 7vh;
-    background-color: #1c42edf2;
-    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e1e28;
+    color: #ccc;
+    padding-right: 10px;
+    font-family:'Times New Roman', Times, serif;
 }
 
 .textbox {
     height: 5vh;
-    background-color: rgb(255, 255, 255);
+    background-color: #ccc;
     width: 70%;
-    border-color: rgb(70, 99, 244);
+    color: black;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-color: rgb(21, 38, 122);
+    border-width: 3px;
     border-radius: 2%;
     text-align: center;
     font-size: 14px;
@@ -49,14 +47,15 @@ a:hover {
 
 .submit {
     height: 6vh;
-    background-color: rgb(3, 3, 80);
-    width: 71%;
+    background-color: rgb(67, 67, 213);
+    width: 25%;
     text-align: center;
     font-size: 14px;
     margin-left: 80px;
     margin-bottom: 40px;
     color: white;
     font-weight: 200;
+    margin-left: 36%;
 }
 
 .alerts {

@@ -12,14 +12,14 @@
 }
 
 .create-user {
-    color: black;
+    color: #ccc;
     text-align: center;
 }
 
 .table-header {
     height: 6vh;
     width: 400px;
-    background-color: #1c42edf2;
+    background-color: #1e1e28;
     color: white;
     font-size: 16px;
 }
