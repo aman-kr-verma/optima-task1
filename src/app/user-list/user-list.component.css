@@ -3,8 +3,8 @@
 .container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 30vh;
+    align-items:baseline;
+    height: 56.5vh;
 }
 
 .table {

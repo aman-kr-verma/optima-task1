@@ -25,3 +25,11 @@ a:hover {
     color: #807e7e;
 }
 
+.footer {
+    height: 14vh;
+    background-color: #1e1e28;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
